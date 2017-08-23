@@ -1,0 +1,25 @@
+1. Command:
+
+    git log --oneline Gemfile | wc -l
+
+Output:
+
+    8
+
+2. Command:
+
+    git log --date-order  --pretty=format:%aD Gemfile | tail -1
+
+Output:
+
+    Wed, 10 Oct 2012 00:47:52 +0400
+
+3. ixpict - Pavel Tsaregorodtsev
+
+4. Command:
+
+    git log --grep="Add Ruby 2.2 support" --pretty=format:%H
+
+Output:
+
+    3b128fa1c6b96c9be4aed5b2bcf777537d752c5e
